@@ -65,3 +65,21 @@ body{
     margin-right: 200px;
     padding-left: 100px;
 }
+
+.contact-detail{
+    /* background: repeating-linear-gradient(to bottom right,#C4C4C4 5%, #3D2583 10%, #D3D6FF 15%); */
+    display: flex;
+    justify-content: space-between;
+}
+.contact-icon{
+    width: 60px;
+}
+.gmail-icon{
+    width: 60px;
+}
+.linkedin-icon{
+    width: 60px;
+}
+.github-icon{
+    width: 60px;
+}
