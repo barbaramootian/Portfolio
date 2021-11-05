@@ -4,6 +4,7 @@ body{
 
 .nav{
     background-color: #D3D6FF;
+    position: fixed;
 }
 
 .nav a{
@@ -15,7 +16,8 @@ body{
     justify-content: space-between;
     padding: 20px 50px;
     float: left;
-    margin-left: 250px;
+    margin-left: 330px;
+    
 }
 .nav a.active{
     background-color: #3D2583;
@@ -28,18 +30,24 @@ body{
       display: block;
     }
 }
-/* @media screen and (max-width : 480px) {
-    .nav{
-        display: block;
-        background-color: #D3D6FF;
-    }
-} */
-
 
 .homepage{
     text-align: center;
     background-image: url("./images/mootian.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    margin: auto;
+    padding: 10%;
+}
 
+#about{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3D2583;
+}
+.right-column{
+  padding-left: 100px;  
+}
+#about h1{
+    text-align: center;
 }
