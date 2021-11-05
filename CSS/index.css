@@ -23,9 +23,23 @@ body{
 .nav a:hover{
     background-color: #C4C4C4;
 }
-@media screen and (min-width : 600px) {
+@media screen  and (max-width : 600px) {
+    .nav{
+      display: block;
+    }
+}
+/* @media screen and (max-width : 480px) {
     .nav{
         display: block;
         background-color: #D3D6FF;
     }
+} */
+
+
+.homepage{
+    text-align: center;
+    background-image: url("./images/mootian.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
