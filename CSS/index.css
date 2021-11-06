@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    background-color: #D3D6FF;
 }
 
 .nav{
@@ -42,12 +43,12 @@ body{
 }
 
 #about{
-    display: flex;
     justify-content: space-between;
     background-color: #3D2583;
 }
-.right-column{
-  padding-left: 100px;  
+.row{
+    display: flex;
+    justify-content: space-between;
 }
 #about h1{
     text-align: center;
@@ -71,15 +72,6 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.contact-icon{
-    width: 60px;
-}
-.gmail-icon{
-    width: 60px;
-}
-.linkedin-icon{
-    width: 60px;
-}
-.github-icon{
-    width: 60px;
+footer{
+    background-color: #C4C4C4;
 }
