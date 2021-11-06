@@ -4,13 +4,16 @@ body{
     /* background-color: #D3D6FF; */
 }
 
-.nav{
-    position: fixed;
+nav{
+    background-color:#C4C4C4;
+    height: 10vh;
+    width: 100vw;
+    position: sticky;
 }
 
 .nav a{
     text-decoration: none;
-    color: white;
+    color: rgb(29, 26, 26);
     font-size: 20px;
     text-transform: uppercase;
     display: flex;
@@ -20,32 +23,31 @@ body{
     margin-left: 330px;
     
 }
-.nav a.active{
+nav a.active{
     background-color: #3D2583;
 }
-.nav a:hover{
-    background-color: #C4C4C4;
+nav a:hover{
+    background-color: #333;
 }
-@media screen  and (max-width : 600px) {
-    .nav{
-      display: block;
-    }
+#home{
+    background-image: url(./images/reson.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: top-center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
 }
-
-.homepage{
+.hometext{
     text-align: center;
-    background: url(./images/mootian.jpg) no-repeat center center / cover ;
-    padding: 10%;
-    margin-top: 40px;
+    transform: translate(-50%, -50%);
+    position: relative;
+    top: 50%;
+    left: 50%;
 }
 span{
     font-weight: bold;
     color: blueviolet;
-}
-@media screen  and (max-width : 600px){
-     .homepage{
-         
-     }
 }
 #about{
     justify-content: space-between;
@@ -67,11 +69,10 @@ span{
     background: url(./images/laptop.png) no-repeat center center / cover ;
     display: flex;
     margin-top: 20px;
-    opacity :1;
     color: blueviolet;
     font-weight: bold;
 }
-.skill h1{
+#skills h1{
     text-align: center;
 }
 .row{
@@ -101,11 +102,27 @@ span{
 }
 
 .contact-detail{
-    /* background: repeating-linear-gradient(to bottom right,#C4C4C4 5%, #3D2583 10%, #D3D6FF 15%); */
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 footer{
     background-color: #C4C4C4;
+}
+@media screen  and (max-width : 600px) {
+    .nav{
+      display: block;
+    }
+    #home{
+        flex-direction:column;
+    }
+    #contact{
+      flex-direction: column;
+    }
+    #about{
+        flex-direction: column;
+    }
+    #skills{
+        display: block;
+    }
 }
