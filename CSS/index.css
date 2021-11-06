@@ -56,6 +56,24 @@ body{
 
 #skills{
     background-color: #D3D6FF;
+    display: flex;
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.row :after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.card{
+    border-style: double;
+    justify-content: space-between;
+    
 }
 #contact{
     background-color: #3D2583;
@@ -71,6 +89,7 @@ body{
     /* background: repeating-linear-gradient(to bottom right,#C4C4C4 5%, #3D2583 10%, #D3D6FF 15%); */
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 footer{
     background-color: #C4C4C4;
