@@ -6,11 +6,13 @@ The project is about entails who I am my background education,my skills,interest
 ## Language Used
 HTML - in structure the web page.
 CSS - to style the webpage.
+## Design
+https://www.figma.com/file/cjnf7WwxtZfa9g849edKB9/landing-page?node-id=42%3A6
 ## Project Setup
 To run the project one require a strong internet connection  to view the live link.
 Also if you want the project in ur local machine you can clone the repository.
 ## Live Link
-
+https://barbaramootian.github.io/Portfolio/
 ## Contact
 Email barbara.mootian@student.moringaschool.com
 LinkedIn at https://www.linkedin.com/in/barbra-mootian-03132b1a8/
