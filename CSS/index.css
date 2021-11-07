@@ -1,7 +1,5 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    /* background-color: #D3D6FF; */
 }
 
 nav{
@@ -30,14 +28,16 @@ nav a:hover{
     background-color: #333;
 }
 #home{
-    background-image: url(./images/reson.jpg);
+    background-image: url("./images/reson.jpg");
     background-size: cover;
-    height: 100%;
-    background-position: top-center;
+    height: 100vh;
     background-repeat: no-repeat;
-    z-index: 1;
+    background-position: top center;
     position: relative;
+    color: black;
+    z-index: 1;
 }
+   
 .hometext{
     text-align: center;
     transform: translate(-50%, -50%);
@@ -49,30 +49,35 @@ span{
     font-weight: bold;
     color: blueviolet;
 }
+
 #about{
-    justify-content: space-between;
-    background-color: #3D2583;
-}
-.row{
-    display: flex;
-    justify-content: space-between;
-}
-#about h1{
     text-align: center;
+    background-color: #3D2583;
+    font-size: 20px;
 }
- img{
-    max-width: 100%;
-    border-radius: 10px;
+.about-section{
+    position: relative;
+}
+.about-text{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 0 20px 0 20px;
+    font-size: 25px;
+    background-color: #3D2583;
+    color: white;
 }
 
 #skills{
-    background: url(./images/laptop.png) no-repeat center center / cover ;
+    background: url(./images/laptop.jpeg) no-repeat center center / cover ;
     display: flex;
-    margin-top: 20px;
-    color: blueviolet;
-    font-weight: bold;
+    color:white;
+    font-size: 20px;
+    justify-content: space-between;
+    
 }
-#skills h1{
+.skill h1{
+    text-transform: uppercase;
     text-align: center;
 }
 .row{
@@ -85,10 +90,15 @@ span{
     clear: both;
     content: "";
 }
+.column{
+    float: right;
+}
 
 .card{
     border-style: double;
     justify-content: space-between;
+    background-color: #C4C4C4;
+    color: black;
     
 }
 #contact{
