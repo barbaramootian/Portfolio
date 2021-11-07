@@ -118,20 +118,25 @@
 
         <!--Contact Form-->
         <div id="contact">
-            <img src="./CSS/images/phone.png">
-            <form >
-                <fieldset>
-                    <legend>Get in touch</legend>
+           <div class="contact-section">
+              <h1>Contact Me</h1>
+              <p>If you would like to keep in touch, I will<br>
+                 be thankful if you could spend a moomet<br>
+                 to leave a message.</p>
+           </div>
+           <div class="container">
+                <form >
                     <label for="fname">First name:</label>
                     <input type="text" id ="fname"name ="fname" placeholder="Your first name"><br>
                     <label for="lname">Last name:</label>
-                     <input type="text" name ="lname"placeholder="Your last name"><br>
+                     <input type="text" id ="lname"name ="lname"placeholder="Your last name"><br>
                      <label for="email">Email :</label>
-                     <input type="text" name ="email" placeholder="Your Email Address"><br>
+                     <input type="text"  id = "email"name ="email" placeholder="Your Email Address"><br>
                      <label for="message">Message:</label>
-                     <input type="text" name = "message" placeholder="Your message">
-               </fieldset>
-            </form>
+                     <textarea id="message" name="message" placeholder="leave a message" style="height: 50%;"></textarea>
+                </form>
+                <p>Be sure to leave you email address if you want me to get back to you</p>
+             </div>
         </div>
 
      <!--Footer-->
